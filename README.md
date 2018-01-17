@@ -1,3 +1,12 @@
+
+install.packages( c("Rcpp","RcppArmadillo") )
+devtools::install_github('jerryzhujian9/WRScpp')
+
+
+
+
+
+
 WRScpp
 ======
 

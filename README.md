@@ -3,6 +3,9 @@
 
         install.packages( c("Rcpp","RcppArmadillo") )
         devtools::install_github('jerryzhujian9/WRScpp')
+        
+        install.packages(c('MASS', 'akima', 'robustbase', 'cobs', 'robust', 'mgcv', 'scatterplot3d', 'quantreg', 'rrcov', 'lars', 'pwr', 'trimcluster', 'mc2d', 'psych', 'Rfit', 'DepthProc', 'class', 'fda', 'e1071', 'rankFD'))
+        devtools::install_github("jerryzhujian9/WRS_WRSC", subdir="pkg")
 
 
 
